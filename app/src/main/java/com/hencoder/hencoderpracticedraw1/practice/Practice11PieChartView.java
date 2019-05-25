@@ -40,7 +40,7 @@ Paint textPaint = new Paint() ;
         linepaint.setColor(Color.WHITE);
         linepaint.setStyle(Paint.Style.STROKE);
         path.moveTo(170,90);
-        path.rLineTo(180,0);
+        path.rLineTo(180,0);HenCoder 绘制 1 练习项目
         path.rLineTo(30,30);
         canvas.drawPath(path,linepaint);
 
